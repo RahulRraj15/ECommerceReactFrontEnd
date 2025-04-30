@@ -6,7 +6,8 @@ import RelatedProduct from "./RelatedProduct";
 const ProductDetail = () => {
   const [product, setProduct] = useState();
   const { id } = useParams();
-  const url = "http://localhost:9999/api";
+  // const url = "http://localhost:9999/api";
+  const url = "https://mearecommurce.vercel.app/api";
   // const url = "https://mern-e-commerce-api-youtube.onrender.com/api";
 
   useEffect(() => {
